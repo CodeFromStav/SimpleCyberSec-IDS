@@ -1,0 +1,55 @@
+Creating a virtual environment (venv) for your project helps isolate dependencies and maintain a clean workspace. It allows you to install specific package versions for each project without affecting other projects or the global Python environment.
+
+Here are the steps to create a virtual environment for your project on Ubuntu and install the Scapy library:
+
+1. Open a terminal and navigate to your project folder:
+
+```
+cd path/to/your/project
+```
+2. Install the python3-venv package if not already installed:
+
+```
+sudo apt-get install python3-venv
+```
+3. Create a virtual environment in your project folder. This will create a new directory named venv:
+
+```
+python3 -m venv venv
+```
+4. Activate the virtual environment:
+
+```
+source venv/bin/activate
+```
+
+After activation, your terminal prompt should change to indicate the active virtual environment (e.g., (venv) user@hostname:~/project$).
+
+5. Install the Scapy library within the virtual environment:
+
+```
+pip install scapy
+```
+-------------------------------------------------------------------------------------------------
+Now you have created and activated a virtual environment with the Scapy library installed.
+
+To work with the virtual environment, follow these steps:
+
+1. Activate the virtual environment when you start working on the project:
+
+```
+source venv/bin/activate
+```
+2. Install any additional packages or libraries needed for your project using pip while the virtual environment is active.
+
+3. Run your Python scripts or start your development environment (e.g., VSCode) while the virtual environment is active to ensure you're using the correct Python interpreter and packages.
+
+4. When you're done working on the project, deactivate the virtual environment:
+
+```
+deactivate
+```
+
+This command will return you to the global Python environment.
+
+Using a virtual environment helps keep your project's dependencies isolated, making it easier to manage, share, and deploy. Additionally, it prevents conflicts between package versions used in different projects or with the global Python environment.
