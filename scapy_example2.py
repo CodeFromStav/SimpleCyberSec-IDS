@@ -21,9 +21,6 @@ def get_protocol_and_port(protocol_num, port_num=None):
     
     return protocol_desc, None #return only protocol info when port info DNE
 
-
-
-
 # Packet handler
 def packet_handler(packet):
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
@@ -54,10 +51,12 @@ def packet_handler(packet):
         "Source IP": src_ip,
         "Destination IP": dst_ip,
         "Protocol": protocol,
-        "Protocol Description": protocol_description,
-        "Port": dst_port,
-        "Port Description": port_description
+        "Protocol Description": protocol_description
     }
+
+    if dst_port is not None and port_description is not None:
+        new_row["Port"] = dst_port
+        new_row["Protocol Description"] = port_description
 
     return new_row
 
