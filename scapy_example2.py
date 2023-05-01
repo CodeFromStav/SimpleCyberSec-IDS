@@ -54,3 +54,6 @@ packet_data.to_json("network_activity.json", orient="records", lines=True)
 
 
 
+#Threats may scan/sniff/spraying your ports
+#Collect known hashes, URL's, IP's to compare to previous events
+#then scan/sniff/spraying network for these

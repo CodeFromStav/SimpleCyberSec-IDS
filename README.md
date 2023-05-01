@@ -23,3 +23,9 @@ Tools and Technologies:
 - IDS Tools: Snort, Suricata (optional)
 - Email Notification: SMTP, Twilio (for SMS)
 - Version Control: Git
+
+----------------------------------------------------------------------
+
+Note: 
+List's "append" method are very efficient and won't be ever deprecated. Dataframes on the other hand, frequently have to be recreated and all data copied over on appends, due to their design - that is why they deprecated the method
+
