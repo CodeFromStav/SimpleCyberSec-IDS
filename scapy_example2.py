@@ -9,7 +9,7 @@ import pandas as pd
 
 # Configuration
 INTERFACE = "wlp59s0"  # Change this to the interface you want to monitor, e.g., wlan0, en0
-# PACKET_COUNT = 25  # Number of packets to capture
+PACKET_COUNT = 30  # Number of packets to capture
 OUTPUT_FILE = "network_activity.log"
 
 def get_protocol_and_port(protocol_num, port_num=None):
@@ -25,23 +25,22 @@ def get_protocol_and_port(protocol_num, port_num=None):
 def packet_handler(packet):
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
-    src_ip = "N/A"
-    dst_ip = "N/A"
-    protocol = "N/A"
-    # dst_port = "N/A"
-    protocol_description = "N/A"
-    # port_description = "N/A"
-    dst_port = None
-    port_description = None
+    # src_ip = None
+    # dst_ip = None
+    # protocol = None
+    # # dst_port = "N/A"
+    # protocol_description = None
+    # # port_description = "N/A"
+    # dst_port = None
+    # port_description = None
+
+    src_ip, dst_ip, protocol, protocol_description, dst_port, port_description = None
 
     if packet.haslayer(IP):
         src_ip = packet[IP].src
         dst_ip = packet[IP].dst
         protocol = packet[IP].proto
-        #default port info to None
-        dst_port = None
-        port_description = None
-
+        
         if protocol == 6:
             dst_port = packet[TCP].dport #Port on server side to identify app or process sender wants to communicate with
         elif protocol == 17:
@@ -66,34 +65,37 @@ def packet_handler(packet):
 
 packet_list = []
 
-def append_packet(packet):
-    packet_info = packet_handler(packet)
-    packet_list.append(packet_info)
+#================================================================================
+# def append_packet(packet):
+#     packet_info = packet_handler(packet)
+#     packet_list.append(packet_info)
 
 
-try:
-    # Continuously capture packets and pass them to the packet_handler function
-    sniff(iface=INTERFACE, prn=append_packet, timeout=2)
-    while True:
-        time.sleep(2)
-        sniff(iface=INTERFACE, prn=append_packet, timeout=2)
+# try:
+#     # Continuously capture packets and pass them to the packet_handler function
+#     sniff(iface=INTERFACE, prn=append_packet, timeout=2)
+#     while True:
+#         time.sleep(2)
+#         sniff(iface=INTERFACE, prn=append_packet, timeout=2)
 
-except KeyboardInterrupt:
-    pass
+# except KeyboardInterrupt:
+#     pass
 
-# Create a DataFrame from the list of dictionaries
-packet_data = pd.DataFrame.from_records(packet_list)
+# # Create a DataFrame from the list of dictionaries
+# packet_data = pd.DataFrame.from_records(packet_list)
 
-# Save to JSON
-packet_data.to_json("network_activity.json", orient="records", lines=True)
+# # Save to JSON
+# packet_data.to_json("network_activity.json", orient="records", lines=True)
+#================================================================================
+
 
 # Capture packets and store the data in a list
 
 #================================================================================
 #for capturing set number of packets
-# for packet in sniff(iface=INTERFACE, count=PACKET_COUNT):
-#     packet_info = packet_handler(packet)
-#     packet_list.append(packet_info)
+for packet in sniff(iface=INTERFACE, count=PACKET_COUNT):
+    packet_info = packet_handler(packet)
+    packet_list.append(packet_info)
 #================================================================================
 
 #================================================================================
@@ -112,10 +114,10 @@ packet_data.to_json("network_activity.json", orient="records", lines=True)
 
 
 # # Create a DataFrame from the list of dictionaries
-# packet_data = pd.DataFrame.from_records(packet_list)
+packet_data = pd.DataFrame.from_records(packet_list)
 
-# #save to JSON
-# packet_data.to_json("network_activity.json", orient="records", lines=True)
+#save to JSON
+packet_data.to_json("network_activity.json", orient="records", lines=True)
 
 # #save to CSV
 # packet_data.to_csv(OUTPUT_FILE, index=False)
