@@ -25,16 +25,14 @@ def get_protocol_and_port(protocol_num, port_num=None):
 def packet_handler(packet):
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
-    # src_ip = None
-    # dst_ip = None
-    # protocol = None
-    # # dst_port = "N/A"
-    # protocol_description = None
-    # # port_description = "N/A"
-    # dst_port = None
-    # port_description = None
+    src_ip = None
+    dst_ip = None
+    protocol = None
+    protocol_description = None
+    dst_port = None
+    port_description = None
 
-    src_ip, dst_ip, protocol, protocol_description, dst_port, port_description = None
+    # src_ip, dst_ip, protocol, protocol_description, dst_port, port_description = None
 
     if packet.haslayer(IP):
         src_ip = packet[IP].src
