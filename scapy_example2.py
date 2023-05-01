@@ -1,5 +1,7 @@
 from scapy.all import sniff
 from scapy.layers.inet import IP
+from scapy.layers.inet import TCP
+from scapy.layers.inet import UDP
 import time
 from protocols import protocol_references #my protocol dictionary
 import pandas as pd
@@ -24,6 +26,10 @@ def packet_handler(packet):
         src_ip = packet[IP].src
         dst_ip = packet[IP].dst
         protocol = packet[IP].proto
+    
+    if packet.haslayer(TCP):
+        src_port = packet[TCP].sport
+        dst_port = packet[TCP].dport
 
     protocol_description = get_protocol_description(protocol)        
 
