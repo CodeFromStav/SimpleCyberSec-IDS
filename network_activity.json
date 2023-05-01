@@ -1,50 +1,25 @@
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.255","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.1","Destination IP":"192.168.1.255","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"40.83.247.108","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"40.83.247.108","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"40.125.127.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"40.125.127.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
-{"Timestamp":"2023-04-28 12:50:00","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)","Port":41142,"Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.220","Destination IP":"192.168.1.28","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)","Port":24800,"Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.28","Destination IP":"192.168.1.220","Protocol":6,"Protocol Description":"TCP (Transmission Control Protocol)","Port":41142,"Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"N\/A","Destination IP":"N\/A","Protocol":"N\/A","Protocol Description":"Unknown Protocol","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)","Port":"N\/A","Port Description":"Unknown Port"}
+{"Timestamp":"2023-05-01 11:47:28","Source IP":"192.168.1.1","Destination IP":"239.255.255.250","Protocol":17,"Protocol Description":"UDP (User Datagram Protocol)","Port":"N\/A","Port Description":"Unknown Port"}
