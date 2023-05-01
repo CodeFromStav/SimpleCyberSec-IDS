@@ -12,20 +12,14 @@ INTERFACE = "wlp59s0"  # Change this to the interface you want to monitor, e.g.,
 PACKET_COUNT = 25  # Number of packets to capture
 OUTPUT_FILE = "network_activity.log"
 
-# def get_protocol_description(protocol_num, port_num, protocol_ref, port_ref):
-#     protocol_ref = protocol_ref.get(protocol_num, "Unknown Protocol")
-#     port_ref = port_ref.get(port_num, "Unknown Port")
-#     return protocol_ref, port_ref
-
-# def get_protocol_and_port(protocol_num, port_num):
-#     return protocol_references.get(protocol_num, "Unknown Protocol"), port_references.get(port_num, "Unknown Port")
-
-# def get_protocol(protocol_num):
-#     return protocol_references.get(protocol_num, "Unknown Protocol")
-def get_protocol_and_port(protocol_num, port_num):
+def get_protocol_and_port(protocol_num, port_num=None):
     protocol_desc = protocol_references.get(protocol_num, "Unknown Protocol")
-    port_desc = port_references.get(port_num, "Unknown Port")
-    return protocol_desc, port_desc
+
+    if protocol_num in (6,17) and port_num is not None: #Check if protocol is 6 or 17 and port has a value
+        port_desc = port_references.get(port_num, "Unknown Port")
+        return protocol_desc, port_desc
+    
+    return protocol_desc, None #return only protocol info when port info DNE
 
 
 
@@ -34,28 +28,33 @@ def get_protocol_and_port(protocol_num, port_num):
 def packet_handler(packet):
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
-    src_ip = "N/A"
-    dst_ip = "N/A"
-    protocol = "N/A"
-    dst_port = "N/A"
+    # src_ip = "N/A"
+    # dst_ip = "N/A"
+    # protocol = "N/A"
+    # dst_port = "N/A"
 
     if packet.haslayer(IP):
         src_ip = packet[IP].src
         dst_ip = packet[IP].dst
         protocol = packet[IP].proto
+        #default port info to None
+        dst_port = None
+        port_description = None
 
         if protocol == 6:
             dst_port = packet[TCP].dport #Port on server side to identify app or process sender wants to communicate with
+        elif protocol == 17:
+            dst_port = packet[UDP].dport
 
-            
-    proto_description, port_description = get_protocol_and_port(protocol, dst_port)
+        protocol_description, port_description = get_protocol_and_port(protocol, dst_port) #Calls function to set protocol & port info
+
 
     new_row = {
         "Timestamp": timestamp,
         "Source IP": src_ip,
         "Destination IP": dst_ip,
         "Protocol": protocol,
-        "Protocol Description": proto_description,
+        "Protocol Description": protocol_description,
         "Port": dst_port,
         "Port Description": port_description
     }
