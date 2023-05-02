@@ -9,7 +9,7 @@ import pandas as pd
 
 # Configuration
 INTERFACE = "wlp59s0"  # Change this to the interface you want to monitor, e.g., wlan0, en0
-PACKET_COUNT = 30  # Number of packets to capture
+PACKET_COUNT = 25  # Number of packets to capture
 OUTPUT_FILE = "network_activity.log"
 
 def get_protocol_and_port(protocol_num, port_num=None):
@@ -56,9 +56,10 @@ def packet_handler(packet):
     }
 
     if dst_port is not None and port_description is not None:
+        print("dst_port is NOT NONE!!")
         new_row["Port"] = dst_port
         new_row["Port Description"] = port_description
-
+    
     return new_row
 
 packet_list = []

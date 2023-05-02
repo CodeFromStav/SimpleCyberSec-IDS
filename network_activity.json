@@ -1,306 +1,225 @@
 {
-    "Timestamp": "2023-05-01 12:49:21",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.220",
+    "Destination IP": "44.238.139.201",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-01 12:49:21",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.220",
+    "Destination IP": "44.238.139.201",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-01 12:49:21",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:21",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:22",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:25",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:26",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:26",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:29",
-    "Source IP": "192.168.1.137",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:30",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:30",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:30",
-    "Source IP": "192.168.1.137",
-    "Destination IP": "239.255.255.250",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 1900.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:33",
+    "Timestamp": "2023-05-02 14:55:57",
     "Source IP": "192.168.1.28",
     "Destination IP": "192.168.1.220",
     "Protocol": 6,
     "Protocol Description": "TCP (Transmission Control Protocol)",
-    "Port": 33420.0,
+    "Port": 59642,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-01 12:49:33",
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 59642,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-02 14:55:57",
     "Source IP": "192.168.1.220",
     "Destination IP": "192.168.1.28",
     "Protocol": 6,
     "Protocol Description": "TCP (Transmission Control Protocol)",
-    "Port": 24800.0,
+    "Port": 24800,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-01 12:49:33",
+    "Timestamp": "2023-05-02 14:55:57",
     "Source IP": "192.168.1.28",
     "Destination IP": "192.168.1.220",
     "Protocol": 6,
     "Protocol Description": "TCP (Transmission Control Protocol)",
-    "Port": 33420.0,
+    "Port": 59642,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-01 12:49:33",
-    "Source IP": "N\/A",
-    "Destination IP": "N\/A",
-    "Protocol": "N\/A",
-    "Protocol Description": "N\/A",
-    "Port": null,
-    "Port Description": null
-}
-{
-    "Timestamp": "2023-05-01 12:49:33",
+    "Timestamp": "2023-05-02 14:55:57",
     "Source IP": "192.168.1.28",
     "Destination IP": "192.168.1.220",
     "Protocol": 6,
     "Protocol Description": "TCP (Transmission Control Protocol)",
-    "Port": 33420.0,
+    "Port": 59642,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-01 12:49:33",
+    "Timestamp": "2023-05-02 14:55:57",
     "Source IP": "192.168.1.28",
     "Destination IP": "192.168.1.220",
     "Protocol": 6,
     "Protocol Description": "TCP (Transmission Control Protocol)",
-    "Port": 33420.0,
+    "Port": 59642,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-01 12:49:33",
+    "Timestamp": "2023-05-02 14:55:57",
     "Source IP": "192.168.1.28",
     "Destination IP": "192.168.1.220",
     "Protocol": 6,
     "Protocol Description": "TCP (Transmission Control Protocol)",
-    "Port": 33420.0,
+    "Port": 59642,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-01 12:49:33",
+    "Timestamp": "2023-05-02 14:55:57",
     "Source IP": "192.168.1.28",
     "Destination IP": "192.168.1.220",
     "Protocol": 6,
     "Protocol Description": "TCP (Transmission Control Protocol)",
-    "Port": 33420.0,
+    "Port": 59642,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-01 12:49:33",
-    "Source IP": "192.168.1.220",
-    "Destination IP": "192.168.1.28",
+    "Timestamp": "2023-05-02 14:55:57",
+    "Source IP": "192.168.1.28",
+    "Destination IP": "192.168.1.220",
     "Protocol": 6,
     "Protocol Description": "TCP (Transmission Control Protocol)",
-    "Port": 24800.0,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-01 12:49:33",
-    "Source IP": "192.168.1.220",
-    "Destination IP": "192.168.1.28",
-    "Protocol": 6,
-    "Protocol Description": "TCP (Transmission Control Protocol)",
-    "Port": 24800.0,
+    "Port": 59642,
     "Port Description": "Unknown Port"
 }

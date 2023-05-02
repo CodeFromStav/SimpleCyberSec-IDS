@@ -23,7 +23,8 @@ port_references = {
     143: "IMAP (Internet Message Access Protocol)",
     443: "HTTPS (Hypertext Transfer Protocol Secure)",
     445: "SMB (Server Message Block)",
-    3389: "RDP (Remote Desktop Protocol)"
+    3389: "RDP (Remote Desktop Protocol)",
+    1900: "SSDP (Simple Service Discovery Protocol)"
 }
 
 #FTP, DNS, HTTP, ect. 
