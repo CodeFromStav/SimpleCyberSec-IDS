@@ -19,6 +19,7 @@ import pandas as pd
 # subsequent packets within that flow.When Suricata detects a new network flow, it associates it with a unique flow ID and tracks subsequent packets within that flow.rk flow, it associates it with 
 # a unique flow ID and tracks subsequent packets within that flow.
 #----
+#Not all port 443 is HHTPS traffic
 
 # Configuration
 INTERFACE = "wlp59s0"  # Change this to the interface you want to monitor, e.g., wlan0, en0
@@ -85,6 +86,23 @@ def packet_handler(packet):
         new_row["Port Description"] = "NO PORT BITCH"
         
     return new_row
+
+
+#Extracting DNS information ***************TODO***********************
+# def dns_handler(packet):
+#     if packet.haslayer(DNS):
+#         dns_query = packet[DNS]
+#         dns_info = {
+#             "type": "query",
+#             "id": dns_query.id,
+#             "rrname": dns_query.qd.qname.decode(),
+#             "rrtype": dns_query.qd.qtype,
+#             "tx_id": packet[IP].id
+#         }
+#         print(dns_info)
+
+# sniff(filter="udp port 53", prn=dns_handler)
+#================================================================
 
 packet_list = []
 
