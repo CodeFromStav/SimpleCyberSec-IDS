@@ -2,6 +2,9 @@ from scapy.all import sniff
 from scapy.layers.inet import IP
 from scapy.layers.inet import TCP
 from scapy.layers.inet import UDP
+from scapy.layers.inet import DNS
+# from scapy.all import IP, TCP, UDP, DNS
+# from scapy.all import *
 import time
 from protocols import protocol_references #my protocol dictionary
 from protocols import port_references #my port dictionary
@@ -9,7 +12,13 @@ import pandas as pd
 
 #NOTES:
 #potentially check packet.haslayer(Ether)
-#
+#Event Types to explore: DNS, Flow, TLS, HTTP, SSH, FTP, ect.
+#----
+#When Suricata detects a new netwoWhen Suricata detects a new 
+# network flow, it associates it with a unique flow ID and tracks 
+# subsequent packets within that flow.When Suricata detects a new network flow, it associates it with a unique flow ID and tracks subsequent packets within that flow.rk flow, it associates it with 
+# a unique flow ID and tracks subsequent packets within that flow.
+#----
 
 # Configuration
 INTERFACE = "wlp59s0"  # Change this to the interface you want to monitor, e.g., wlan0, en0
@@ -44,10 +53,6 @@ def packet_handler(packet):
         dst_ip = packet[IP].dst
         protocol = packet[IP].proto
 
-        # print("srcIP: " + str(src_ip))
-        # print("dst_ip: " + str(dst_ip))
-        # print("protocol: " + str(protocol))
-        
         if protocol == 6:
             dst_port = packet[TCP].dport #Port on server side to identify app or process sender wants to communicate with
         elif protocol == 17:
@@ -55,17 +60,19 @@ def packet_handler(packet):
 
         protocol_description, port_description = get_protocol_and_port(protocol, dst_port) #Calls function to set protocol & port info
 
-    else:
-        src_ip = "No IP Layer"
-        dst_ip = "No IP Layer"
-        protocol = "No IP Layer"
+    elif packet.haslayer(DNS):
+        test = packet[DNS].src
+        print("DNS SRC TESSSST: ")
+        print(test)
         
+
     new_row = {
         "Timestamp": timestamp,
         "Source IP": src_ip,
         "Destination IP": dst_ip,
         "Protocol": protocol,
-        "Protocol Description": protocol_description
+        "Protocol Description": protocol_description,
+        "DNS TEST": test
     }
 
     if dst_port is not None and port_description is not None:
