@@ -7,15 +7,20 @@ from protocols import protocol_references #my protocol dictionary
 from protocols import port_references #my port dictionary
 import pandas as pd
 
+#NOTES:
+#potentially check packet.haslayer(Ether)
+#
+
 # Configuration
 INTERFACE = "wlp59s0"  # Change this to the interface you want to monitor, e.g., wlan0, en0
-PACKET_COUNT = 25  # Number of packets to capture
+PACKET_COUNT = 40  # Number of packets to capture
 OUTPUT_FILE = "network_activity.log"
 
 def get_protocol_and_port(protocol_num, port_num=None):
     protocol_desc = protocol_references.get(protocol_num, "Unknown Protocol")
 
-    if protocol_num in (6,17) and port_num is not None: #Check if protocol is 6 or 17 and port has a value
+    # if protocol_num in (6,17) and port_num is not None: #Check if protocol is 6 or 17 and port has a value
+    if protocol_num in (6,17):   
         port_desc = port_references.get(port_num, "Unknown Port")
         return protocol_desc, port_desc
     
@@ -38,6 +43,10 @@ def packet_handler(packet):
         src_ip = packet[IP].src
         dst_ip = packet[IP].dst
         protocol = packet[IP].proto
+
+        # print("srcIP: " + str(src_ip))
+        # print("dst_ip: " + str(dst_ip))
+        # print("protocol: " + str(protocol))
         
         if protocol == 6:
             dst_port = packet[TCP].dport #Port on server side to identify app or process sender wants to communicate with
@@ -46,7 +55,11 @@ def packet_handler(packet):
 
         protocol_description, port_description = get_protocol_and_port(protocol, dst_port) #Calls function to set protocol & port info
 
-
+    else:
+        src_ip = "No IP Layer"
+        dst_ip = "No IP Layer"
+        protocol = "No IP Layer"
+        
     new_row = {
         "Timestamp": timestamp,
         "Source IP": src_ip,
@@ -59,7 +72,11 @@ def packet_handler(packet):
         print("dst_port is NOT NONE!!")
         new_row["Port"] = dst_port
         new_row["Port Description"] = port_description
-    
+
+    else:
+        new_row["Port"] = "NO PORT BITCH"
+        new_row["Port Description"] = "NO PORT BITCH"
+        
     return new_row
 
 packet_list = []
