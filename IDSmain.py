@@ -24,7 +24,8 @@ import pandas as pd
 INTERFACE = "wlp59s0"  # Change this to the interface you want to monitor, e.g., wlan0, en0
 PACKET_COUNT = 50  # Number of packets to capture
 OUTPUT_FILE = "network_activity.log"
-flow_tracker = {}
+packet_list = [] #Saved into Pandas DataFrame for analysis and visualization
+flow_tracker = {} #saved flow data for processing.
 
 def get_protocol_and_port(protocol_num, port_num=None):
     protocol_desc = protocol_references.get(protocol_num, "Unknown Protocol")
@@ -127,55 +128,10 @@ def packet_handler(packet):
 # sniff(filter="udp port 53", prn=dns_handler)
 #================================================================
 
-packet_list = []
-
-#================================================================================
-# def append_packet(packet):
-#     packet_info = packet_handler(packet)
-#     packet_list.append(packet_info)
-
-
-# try:
-#     # Continuously capture packets and pass them to the packet_handler function
-#     sniff(iface=INTERFACE, prn=append_packet, timeout=2)
-#     while True:
-#         time.sleep(2)
-#         sniff(iface=INTERFACE, prn=append_packet, timeout=2)
-
-# except KeyboardInterrupt:
-#     pass
-
-# # Create a DataFrame from the list of dictionaries
-# packet_data = pd.DataFrame.from_records(packet_list)
-
-# # Save to JSON
-# packet_data.to_json("network_activity.json", orient="records", lines=True)
-#================================================================================
-
-
-# Capture packets and store the data in a list
-
-#================================================================================
 #for capturing set number of packets
 for packet in sniff(iface=INTERFACE, count=PACKET_COUNT):
     packet_info = packet_handler(packet)
     packet_list.append(packet_info)
-#================================================================================
-
-#================================================================================
-#For scanning until CTRL-C
-# sniff(iface=INTERFACE, prn=lambda packet: packet_list.append(packet_handler(packet)))
-#================================================================================
-
-#================================================================================
-#Sniffing until CTRL-C with entry every 2 seconds
-# while True:
-#     # Continuously capture packets and pass them to the packet_handler function
-#     sniff(iface=INTERFACE, prn=lambda packet: packet_list.append(packet_handler(packet)), timeout=2)
-#     time.sleep(2)
-# ================================================================================
-
-
 
 # # Create a DataFrame from the list of dictionaries
 packet_data = pd.DataFrame.from_records(packet_list)
