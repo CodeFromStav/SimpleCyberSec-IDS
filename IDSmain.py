@@ -44,6 +44,7 @@ def packet_handler(packet):
     dst_ip = None
     protocol = None
     protocol_description = None
+    src_port = None
     dst_port = None
     port_description = None
 
@@ -68,15 +69,24 @@ def packet_handler(packet):
     #     print("DNS SRC TESSSST: ")
     #     print(test)
 
+    #Non outputted information, for background data analysis
     flow_id = (src_ip, dst_ip, protocol, src_port, dst_port)
-    print("FLOW ID Tracking: " + str(flow_id))
 
-    if flow_id not in flow_tracker:
-      flow_tracker[flow_id] = []
+    # if flow_id not in flow_tracker:
+    #   flow_tracker[flow_id] = []
 
-    flow_tracker[flow_id].append(packet)
-      
-        
+    # flow_tracker[flow_id].append(packet)
+
+    #
+    hash_value = hash(str(flow_id))
+    print("Hash Values: " + str(hash_value))
+
+    #Check if hash_value is a key within table, if not: create it and assign empty list
+    if hash_value not in flow_tracker:
+        flow_tracker[hash_value] = []
+    #append packet to empty list
+    flow_tracker[hash_value].append(packet)
+
 
     new_row = {
         "Timestamp": timestamp,
@@ -88,13 +98,15 @@ def packet_handler(packet):
     }
 
     if dst_port is not None and port_description is not None:
-        print("dst_port is NOT NONE!!")
+        # print("dst_port is NOT NONE!!")
         new_row["Port"] = dst_port
         new_row["Port Description"] = port_description
 
     else:
         new_row["Port"] = "NO PORT BITCH"
         new_row["Port Description"] = "NO PORT BITCH"
+
+    
         
     return new_row
 
