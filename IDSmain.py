@@ -2,7 +2,7 @@ from scapy.all import sniff
 from scapy.layers.inet import IP
 from scapy.layers.inet import TCP
 from scapy.layers.inet import UDP
-from scapy.layers.inet import DNS
+# from scapy.layers.inet import DNS
 # from scapy.all import IP, TCP, UDP, DNS
 # from scapy.all import *
 import time
@@ -14,17 +14,17 @@ import pandas as pd
 #potentially check packet.haslayer(Ether)
 #Event Types to explore: DNS, Flow, TLS, HTTP, SSH, FTP, ect.
 #----
-#When Suricata detects a new netwoWhen Suricata detects a new 
+#WWhen Suricata detects a new netwoWhen Suricata detects a new 
 # network flow, it associates it with a unique flow ID and tracks 
-# subsequent packets within that flow.When Suricata detects a new network flow, it associates it with a unique flow ID and tracks subsequent packets within that flow.rk flow, it associates it with 
-# a unique flow ID and tracks subsequent packets within that flow.
+# subsequent packets within that flow.
 #----
 #Not all port 443 is HHTPS traffic
 
 # Configuration
 INTERFACE = "wlp59s0"  # Change this to the interface you want to monitor, e.g., wlan0, en0
-PACKET_COUNT = 40  # Number of packets to capture
+PACKET_COUNT = 50  # Number of packets to capture
 OUTPUT_FILE = "network_activity.log"
+flow_tracker = {}
 
 def get_protocol_and_port(protocol_num, port_num=None):
     protocol_desc = protocol_references.get(protocol_num, "Unknown Protocol")
@@ -55,16 +55,27 @@ def packet_handler(packet):
         protocol = packet[IP].proto
 
         if protocol == 6:
+            src_port = packet[TCP].sport
             dst_port = packet[TCP].dport #Port on server side to identify app or process sender wants to communicate with
         elif protocol == 17:
+            src_port = packet[UDP].sport
             dst_port = packet[UDP].dport
 
         protocol_description, port_description = get_protocol_and_port(protocol, dst_port) #Calls function to set protocol & port info
 
-    elif packet.haslayer(DNS):
-        test = packet[DNS].src
-        print("DNS SRC TESSSST: ")
-        print(test)
+    # elif packet.haslayer(DNS):
+    #     test = packet[DNS].src
+    #     print("DNS SRC TESSSST: ")
+    #     print(test)
+
+    flow_id = (src_ip, dst_ip, protocol, src_port, dst_port)
+    print("FLOW ID Tracking: " + str(flow_id))
+
+    if flow_id not in flow_tracker:
+      flow_tracker[flow_id] = []
+
+    flow_tracker[flow_id].append(packet)
+      
         
 
     new_row = {
@@ -73,7 +84,7 @@ def packet_handler(packet):
         "Destination IP": dst_ip,
         "Protocol": protocol,
         "Protocol Description": protocol_description,
-        "DNS TEST": test
+        # "DNS TEST": test
     }
 
     if dst_port is not None and port_description is not None:

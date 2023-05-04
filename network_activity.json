@@ -1,69 +1,303 @@
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "192.168.1.1",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 53,
-    "Port Description": "DNS (Domain Name System)"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.125.127.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.125.127.28",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 40564,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "192.168.1.1",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 53,
-    "Port Description": "DNS (Domain Name System)"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "192.168.1.1",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 53,
-    "Port Description": "DNS (Domain Name System)"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.20",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.7.141.137",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 56054,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.7.141.137",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.59",
     "Destination IP": "224.0.0.251",
     "Protocol": 17,
     "Protocol Description": "UDP (User Datagram Protocol)",
@@ -71,290 +305,1496 @@
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "192.168.1.1",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "8.8.8.8",
     "Protocol": 17,
     "Protocol Description": "UDP (User Datagram Protocol)",
     "Port": 53,
     "Port Description": "DNS (Domain Name System)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "192.168.1.16",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "8.8.8.8",
+    "Destination IP": "192.168.24.78",
     "Protocol": 17,
     "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 47439,
+    "Port": 52910,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.16.173.18",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.16.173.18",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 58698,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.16.173.18",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.16.173.18",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.16.173.18",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 58698,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.16.173.18",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 58698,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.16.173.18",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.16.173.18",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.16.173.18",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.16.173.18",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.16.173.18",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 58698,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.16.173.18",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 58698,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.16.173.18",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 58698,
+    "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "No IP Layer",
-    "Destination IP": "No IP Layer",
-    "Protocol": "No IP Layer",
-    "Protocol Description": null,
-    "Port": "NO PORT BITCH",
-    "Port Description": "NO PORT BITCH"
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.16.173.18",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "192.168.1.1",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.16.173.18",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 58698,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.16.173.18",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 58698,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "96.16.173.18",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 58698,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "96.16.173.18",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.237.73.95",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.237.73.95",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49668,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.237.73.95",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49668,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.237.73.95",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 41594,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 41594,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "35.244.177.4",
+    "Protocol": 17,
+    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "35.244.177.4",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 17,
+    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Port": 33905,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "13.64.180.106",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 46492,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "13.64.180.106",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "35.244.177.4",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 17,
+    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Port": 33905,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "35.244.177.4",
+    "Protocol": 17,
+    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "8.8.8.8",
     "Protocol": 17,
     "Protocol Description": "UDP (User Datagram Protocol)",
     "Port": 53,
     "Port Description": "DNS (Domain Name System)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "192.168.1.1",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "8.8.8.8",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 17,
+    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Port": 41918,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "8.8.8.8",
     "Protocol": 17,
     "Protocol Description": "UDP (User Datagram Protocol)",
     "Port": 53,
     "Port Description": "DNS (Domain Name System)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.1",
-    "Destination IP": "192.168.1.16",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "8.8.8.8",
+    "Destination IP": "192.168.24.78",
     "Protocol": 17,
     "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 52817,
+    "Port": 47121,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "142.250.72.228",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
     "Port": 443,
     "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "142.250.72.228",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 443,
-    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
-}
-{
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "142.250.72.228",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 443,
-    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
-}
-{
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "142.250.72.228",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 443,
-    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
-}
-{
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "142.250.72.228",
-    "Destination IP": "192.168.1.16",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 53945,
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49762,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "142.250.72.228",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
     "Port": 443,
     "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "142.250.72.228",
-    "Destination IP": "192.168.1.16",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 53945,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "142.250.72.228",
-    "Destination IP": "192.168.1.16",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 53945,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "142.250.72.228",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
     "Port": 443,
     "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "142.250.72.228",
-    "Destination IP": "192.168.1.16",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 53945,
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49762,
     "Port Description": "Unknown Port"
 }
 {
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "142.250.72.228",
-    "Destination IP": "192.168.1.16",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
-    "Port": 53945,
-    "Port Description": "Unknown Port"
-}
-{
-    "Timestamp": "2023-05-03 14:10:56",
-    "Source IP": "192.168.1.16",
-    "Destination IP": "142.250.72.228",
-    "Protocol": 17,
-    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
     "Port": 443,
     "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49762,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49762,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "8.8.8.8",
+    "Protocol": 17,
+    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Port": 53,
+    "Port Description": "DNS (Domain Name System)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "8.8.8.8",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 17,
+    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Port": 40841,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49762,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49762,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49762,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49762,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49768,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "34.111.196.52",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 48330,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "34.111.196.52",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "8.8.8.8",
+    "Protocol": 17,
+    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Port": 53,
+    "Port Description": "DNS (Domain Name System)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "8.8.8.8",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 17,
+    "Protocol Description": "UDP (User Datagram Protocol)",
+    "Port": 43489,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "192.168.1.28",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 24800,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49770,
+    "Port Description": "Unknown Port"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "192.168.24.78",
+    "Destination IP": "40.79.189.58",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 443,
+    "Port Description": "HTTPS (Hypertext Transfer Protocol Secure)"
+}
+{
+    "Timestamp": "2023-05-04 15:06:03",
+    "Source IP": "40.79.189.58",
+    "Destination IP": "192.168.24.78",
+    "Protocol": 6,
+    "Protocol Description": "TCP (Transmission Control Protocol)",
+    "Port": 49770,
+    "Port Description": "Unknown Port"
 }
